@@ -32,8 +32,13 @@ img {
     height: 90%;
     margin: 5%;
     border-radius: 10px;
+
 }
 
+img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 .text {
     width: 70%;
 font-family: 'Outfit', sans-serif;
